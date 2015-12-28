@@ -58,14 +58,4 @@
     <servlet-name>weixin userInfo</servlet-name>  
     <url-pattern>/weixin/userinfo</url-pattern> 
   </servlet-mapping>   
-  <servlet> 
-    <servlet-name>X5 Baas Jh Servlet</servlet-name>  
-    <servlet-class>com.justep.baas.jh.JhAjaxServlet</servlet-class>  
-    <load-on-startup>1</load-on-startup> 
-  </servlet>  
-  <servlet-mapping> 
-    <servlet-name>X5 Baas Jh Servlet</servlet-name>  
-    <url-pattern>/jhapi</url-pattern> 
-  </servlet-mapping>  
- 
 </web-app>
